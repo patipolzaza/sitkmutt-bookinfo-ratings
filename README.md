@@ -32,3 +32,9 @@ docker run -d --name ratings -p 8080:8080 --link mongodb:mongodb \
 ```bash
 node ratings.js 8080
 ```
+
+## How to run with Docker Compose
+
+```bash
+docker-compose up
+```
