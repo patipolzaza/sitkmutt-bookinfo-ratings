@@ -1,0 +1,6 @@
+services:
+  staticweb:
+    build: .
+    image: ghcr.io/patipol_1456/static-web:dev
+    ports:
+      - "8080:80"
