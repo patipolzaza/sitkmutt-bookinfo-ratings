@@ -17,7 +17,7 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
-          tags: ghcr.io/patipolzaza/bookinfo-ratings:dev
+          tags: ghcr.io/patipolzaza/bookinfo-ratings:main
   deploy:
     needs: build
     runs-on: ubuntu-20.04
